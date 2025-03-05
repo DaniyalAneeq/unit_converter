@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title('🧮 Unit Converter')
-st.markdown("### Converts Length, Weight and Time units")
+st.markdown("### Converts Length, Weight, Temperature and Time units")
 st.write("Welcome to the Unit Converter! Select the type of conversion you'd like to perform")
 
 category = st.selectbox("Select a category", ["Length", "Weight", "Time", "Temperature"])
